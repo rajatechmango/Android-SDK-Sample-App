@@ -13,9 +13,9 @@ pipeline {
     steps {
       appCenter apiToken: APPCENTER_API_TOKEN,
               ownerName: 'clanhqjenkins',
-              appName: 'clanhq',
+              appName: 'clanhqjenkins',
               pathToApp: 'app/build/outputs/apk/debug/app-debug.apk',
-              distributionGroups: 'testing'
+              distributionGroups: 'Testing'
     }
    }
   }
