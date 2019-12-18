@@ -15,7 +15,7 @@ pipeline {
               ownerName: 'clanhqjenkins-gmail.com',
               appName: 'clanhq',
               pathToApp: 'testing.apk',
-              distributionGroups: 'casey, niccoli'
+              distributionGroups: 'Testing'
     }
    }
   }
