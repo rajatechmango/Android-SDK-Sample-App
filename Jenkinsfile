@@ -14,7 +14,7 @@ pipeline {
       appCenter apiToken: APPCENTER_API_TOKEN,
               ownerName: 'clanhqjenkins-gmail.com',
               appName: 'clanhq',
-              pathToApp: 'testing.apk',
+              pathToApp: '/var/lib/jenkins/workspace/Android(testing)/app/staging/release/app-staging-release.apk',
               distributionGroups: 'Testing'
     }
    }
